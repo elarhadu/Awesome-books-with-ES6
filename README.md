@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Awesome-books-with-ES6 <a name="about-project"></a>
 
-In this project, I built a basic website that allows users to add/remove books from a list.
+In this project, I built a basic website that allows users to add/remove books from a list using vanilla JavaScript (ES6).
 
 ## 🛠 Built With <a name="built-with"></a>
 
