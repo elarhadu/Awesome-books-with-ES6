@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="nav-bar">
+        <div class="title"><h1>Awesome Books</h1></div>
+        <div class="nav-menu">
+          <ul>
+            <li id="list"><a href="">List|</a></li>
+            <li id="new"><a href="#">Add new|</a></li>
+            <li id="contact"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div class="dateTime"></div>
+
+        <section class="list active">
+          <h2>All Awesome Books</h2>
+          <div id="book-lists"></div>
+          <br />
+        </section>
+
+        <section class="add-new hide">
+          <div><h2>Add a new book</h2></div>
+          <div class="form">
+            <form id="book-form">
+              <input
+                type="text"
+                name="book"
+                id="title"
+                placeholder="Title"
+              /><br /><br />
+              <input type="text" name="book" id="author" placeholder="Author" />
+              <br />
+              <br />
+              <button type="submit" class="add">Add</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="contact hide">
+          <h2>Contact information</h2>
+          <p>
+            Do you have questions or you just want to say "Hello"? <br />
+            You can reach out to us!
+          </p>
+          <ul>
+            <li>Our e-mail: elarhadu@gmail.com</li>
+            <li>Our phone number: +233 23 456 7890</li>
+            <li>Our address: Adams Street 107, 58455 Accra, Ghana</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
