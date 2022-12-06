@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import Book from './list.js';
 import Store from './storage.js';
 
@@ -58,6 +59,9 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
 // Event: Remove a Book
 document.querySelector('#book-lists').addEventListener('click', (e) => {
   UI.removeBook(e.target);
+
+  // Remove book from local storage
+  Store.removeBook(e.target.parentElement.previousElementSibling.previousElementSibling.textContent);
 });
 
 export default UI;
