@@ -27,8 +27,6 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -89,8 +87,6 @@ In this project, I built a basic website that allows users to add/remove books f
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 [Awesome Books With ES6](https://elarhadu.github.io/Awesome-books-with-ES6/)
 
